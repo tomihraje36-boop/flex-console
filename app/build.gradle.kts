@@ -1,3 +1,5 @@
+import java.util.Base64
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -8,7 +10,7 @@ plugins {
 val flexKeystore = file("flex.keystore")
 if (!flexKeystore.exists()) {
     val b64 = file("flex.keystore.b64")
-    if (b64.exists()) flexKeystore.writeBytes(java.util.Base64.getMimeDecoder().decode(b64.readText()))
+    if (b64.exists()) flexKeystore.writeBytes(Base64.getMimeDecoder().decode(b64.readText()))
 }
 
 android {
