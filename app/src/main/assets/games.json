@@ -1,0 +1,15 @@
+[
+  { "id": "minecraft", "title": "Minecraft", "package": "com.mojang.minecraftpe", "local": true, "cloud": false, "color": "FF4CAF50" },
+  { "id": "roblox", "title": "Roblox", "package": "com.roblox.client", "local": true, "cloud": false, "color": "FFE53935" },
+  { "id": "genshin", "title": "Genshin Impact", "package": "com.miHoYo.GenshinImpact", "local": true, "cloud": false, "color": "FF5C6BC0" },
+  { "id": "codm", "title": "Call of Duty: Mobile", "package": "com.activision.callofduty.shooter", "local": true, "cloud": false, "color": "FF455A64" },
+  { "id": "pubg", "title": "PUBG Mobile", "package": "com.tencent.ig", "local": true, "cloud": false, "color": "FFF9A825" },
+  { "id": "brawlstars", "title": "Brawl Stars", "package": "com.supercell.brawlstars", "local": true, "cloud": false, "color": "FFFFB300" },
+  { "id": "clashroyale", "title": "Clash Royale", "package": "com.supercell.clashroyale", "local": true, "cloud": false, "color": "FF1E88E5" },
+  { "id": "amongus", "title": "Among Us", "package": "com.innersloth.spacemafia", "local": true, "cloud": false, "color": "FFC62828" },
+  { "id": "subway", "title": "Subway Surfers", "package": "com.kiloo.subwaysurf", "local": true, "cloud": false, "color": "FF00ACC1" },
+  { "id": "fortnite", "title": "Fortnite", "local": false, "cloud": true, "cloudUrl": "https://www.xbox.com/play", "color": "FF7B1FA2" },
+  { "id": "forza5", "title": "Forza Horizon 5", "local": false, "cloud": true, "cloudUrl": "https://www.xbox.com/play", "color": "FFEF6C00" },
+  { "id": "halo", "title": "Halo Infinite", "local": false, "cloud": true, "cloudUrl": "https://www.xbox.com/play", "color": "FF2E7D32" },
+  { "id": "seaofthieves", "title": "Sea of Thieves", "local": false, "cloud": true, "cloudUrl": "https://www.xbox.com/play", "color": "FF00897B" }
+]
